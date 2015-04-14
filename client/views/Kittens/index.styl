@@ -1,0 +1,39 @@
+.kittens-view
+  .add
+    position: relative
+    left: 50%
+    padding: 20px
+    margin: 20px
+    border: none
+    color: #fff
+    background: rgba(46, 204, 113, 1)
+    font-size: 30px
+    transform: translateX(-59%)
+
+  .kittens
+    width: 100%
+    text-align: center
+    .kitten
+      position: relative
+      min-height: 200px
+      min-width: 200px
+      margin: 20px
+      display: inline-block
+      background: #cdcdcd
+      box-shadow: 0 0 5px #555
+      padding: 0
+      transition: all 1s
+      .close
+        position: absolute
+        top: 0
+        right: 0
+        width: 40px
+        height: 40px
+        padding: 5px
+        opacity: .2
+        background: #cdcdcd
+        font-size: 30px
+        text-align: center
+        cursor: pointer
+        &:hover
+          opacity: .9
